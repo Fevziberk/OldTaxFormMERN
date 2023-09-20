@@ -1,5 +1,5 @@
 const mongoose=require("mongoose")
-mongoose.connect("mongodb+srv://Berqque:Database123321 @atlascluster.vt1is9m.mongodb.net/")
+mongoose.connect("mongodb+srv://Berqque:Database123321@atlascluster.vt1is9m.mongodb.net/")
 .then(()=>{
     console.log("mongodb connected");
 })
