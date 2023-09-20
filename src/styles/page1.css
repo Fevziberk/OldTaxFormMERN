@@ -1,0 +1,268 @@
+body {
+    background: #dfe9f5;
+  }
+  .kaydet {
+    position: absolute;
+    top: 11px;
+    right: 102px;
+    cursor: pointer;
+    background: #dfe9f5; 
+    color: black; 
+    transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease;
+  }
+  .bitir {
+    position: absolute;
+    top: 59px;
+    right: 120px;
+    cursor: pointer;
+    background: #dfe9f5;
+    color: black;
+    transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.kaydet:hover{
+  background: lightblue; 
+  color: white; 
+  transform: scale(1.05)
+
+}
+
+.bitir:hover{
+  background: lightblue; 
+  color: white;
+  transform: scale(1.05)
+
+}
+  .container {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+  }
+  .taxTable {
+    display: grid;
+    border: 1px solid black;
+    max-width: 970px;
+  }
+  
+  .TableHead-Page1 {
+    text-align: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 2fr 1.2fr 1.3fr 0.5fr 1fr 1fr 2fr 1.2fr 1.3fr;
+    grid-template-rows: 0.5fr 0.5r 0.5fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    border-bottom: none;
+  
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  
+  .queueNoFirst {
+    grid-area: 1 / 1 / 3 / 2;
+    border: 1px solid black;
+    font-size: smaller;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .headTextFirst {
+    grid-area: 1 / 2 / 2 / 7;
+    border: 1px solid black;
+  }
+  .queueNoSecond {
+    grid-area: 1 / 7 / 3 / 8;
+    border: 1px solid black;
+    font-size: smaller;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .headTextSecond {
+    grid-area: 1 / 8 / 2 / 13;
+    border: 1px solid black;
+  }
+  .dateHead {
+    grid-area: 2 / 2 / 3 / 3;
+    border: 1px solid black;
+  }
+  .noHead {
+    grid-area: 2 / 3 / 3 / 4;
+    border: 1px solid black;
+  }
+  
+  .whoFromHead {
+    grid-area: 2 / 4 / 3 / 5;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .typeHead {
+    grid-area: 2 / 5 / 3 / 6;
+    border: 1px solid black;
+  }
+  .priceHead {
+    grid-area: 2 / 6 / 3 / 7;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .dateHeadSecond {
+    grid-area: 2 / 8 / 3 / 9;
+    border: 1px solid black;
+  }
+  .noHeadSecond {
+    grid-area: 2 / 9 / 3 / 10;
+    border: 1px solid black;
+  }
+  .whoFromHeadSecond {
+    grid-area: 2 / 10 / 3 / 11;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .typeHeadSecond {
+    grid-area: 2 / 11 / 3 / 12;
+    border: 1px solid black;
+  }
+  .priceHeadSecond {
+    grid-area: 2 / 12 / 3 / 13;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .rowNumberOne {
+    grid-area: 3 / 1 / 4 / 2;
+    border: 1px solid black;
+    text-align: right;
+    padding-right: 5px;
+  }
+  .dateInput1 {
+    grid-area: 3 / 2 / 4 / 3;
+    border: 1px solid black;
+  }
+  .noInput1 {
+    grid-area: 3 / 3 / 4 / 4;
+    border: 1px solid black;
+  }
+  .whoFromInput1 {
+    grid-area: 3 / 4 / 4 / 5;
+    border: 1px solid black;
+  }
+  .typeInput1 {
+    grid-area: 3 / 5 / 4 / 6;
+    border: 1px solid black;
+  }
+  .priceInput1 {
+    grid-area: 3 / 6 / 4 / 7;
+    border: 1px solid black;
+  }
+  .transferredPriceText {
+    grid-area: 3 / 7 / 4 / 12;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .transferredPrice {
+    grid-area: 3 / 12 / 4 / 12;
+    border: 1px solid black;
+  }
+  
+  .tableInputArea {
+    margin: 1px;
+    text-align: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 2fr 1.2fr 1.3fr 0.5fr 1fr 1fr 2fr 1.2fr 1.3fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    border-top: none;
+    border-bottom: none;
+  }
+  .rowNum {
+    border: 1px solid black;
+    text-align: right;
+    padding-right: 5px;
+  }
+  .dateInputs {
+    border: 1px solid black;
+  }
+  .noInputs {
+    border: 1px solid black;
+  }
+  .whoFromInputs {
+    border: 1px solid black;
+  }
+  .typeInputs {
+    border: 1px solid black;
+  }
+  .priceInputs {
+    border: 1px solid black;
+  }
+  .tableFoot-Page1 {
+    margin: 1px;
+    text-align: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 5.7fr 1.3fr 5.7fr 1.3fr;
+    grid-template-rows: 0.5fr;
+    grid-column-gap: 1px;
+    
+  }
+  
+  .finalPriceText {
+    border: 1px solid black;
+    text-align: end;
+    padding-right: 5px;
+  
+  }
+  .finalPrice {
+    border: 1px solid black;
+  }
+  .typeInputs,
+  .queueNoFirst,
+  .queueNoSecond,
+  .dateHead,
+  .dateHeadSecond,
+  .headTextFirst,
+  .headTextSecond,
+  .noHead,
+  .noHeadSecond,
+  .priceHead,
+  .priceHeadSecond,
+  .typeHead,
+  .typeHeadSecond,
+  .whoFromHead,
+  .whoFromHeadSecond,
+  .transferredPriceText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .dateInputField {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .noInputField {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .whoFromInputField {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .typeInputField {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .priceInputField {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  

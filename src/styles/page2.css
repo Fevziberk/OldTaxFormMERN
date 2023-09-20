@@ -1,0 +1,379 @@
+body {
+    background: #dfe9f5;
+  }
+  .container {
+    margin: auto;
+    width: 60%;
+  }
+  
+  .tableHead-Page2 {
+    text-align: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(4, 0.5fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+  }
+  .tableTitle {
+    grid-area: 1 / 1 / 2/ 12;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: larger;
+  }
+  .textUnderTitle {
+    grid-area: 2/1/3/12;
+  
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    font-size: smaller;
+  }
+  .headDate {
+    grid-area: 3/1/6/4;
+    border: 1px solid black;
+    padding-top: 20px;
+  }
+  
+  .titleEmployer {
+    grid-area: 3/4/4/12;
+    border: 1px solid black;
+  }
+  .employerInfo {
+    grid-area: 4/4/5/6;
+    border: 1px solid black;
+  }
+  .employerAdress {
+    grid-area: 5/4/6/6;
+    border: 1px solid black;
+  }
+  .employerInfoCell {
+    grid-area: 4/6/5/12;
+    border: 1px solid black;
+  }
+  .employerAdressCell {
+    grid-area: 5/6/6/12;
+    border: 1px solid black;
+  }
+  .tableBody {
+    text-align: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(15, 0.2fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+  }
+  
+  .tableBodyTitle {
+    grid-area: 1/1/2/12;
+    border: 1px solid black;
+  }
+  .surname {
+    grid-area: 2/1/2/3;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .surnameCell {
+    grid-area: 2/3/3/6;
+    border: 1px solid black;
+  }
+  .regNum {
+    grid-area: 2/6/3/8;
+    border: 1px solid black;
+  }
+  .regNumCell {
+    grid-area: 2/8/3/12;
+    border: 1px solid black;
+  }
+  
+  .name {
+    grid-area: 3/1/4/3;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .nameCell1 {
+    grid-area: 3/3/4/6;
+    border: 1px solid black;
+  }
+  .nameCell2 {
+    grid-area: 3/6/4/8;
+    border: 1px solid black;
+  }
+  .nameCell3 {
+    grid-area: 3/8/4/12;
+    border: 1px solid black;
+  }
+  .adressInfo {
+    grid-area: 4/1/9/3;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .adressInfoCell {
+    grid-area: 4/3/9/12;
+    border: 1px solid black;
+  }
+  
+  .secondTitle {
+    grid-area: 9/1/10/12;
+    border: 1px solid black;
+  }
+  .nameSurname {
+    grid-area: 10/1/10/5;
+    border: 1px solid black;
+  }
+  .birthDate {
+    grid-area: 10/5/10/7;
+    border: 1px solid black;
+  }
+  .relativeDegree {
+    border: 1px solid black;
+    grid-area: 10/7/10/12;
+  }
+  .nameSurnameCell1 {
+    border: 1px solid black;
+    grid-area: 11/1/11/5;
+    padding: 0.75rem;
+  }
+  .nameSurnameCell2 {
+    border: 1px solid black;
+    grid-area: 12/1/12/5;
+    padding: 0.75rem;
+  }
+  .nameSurnameCell3 {
+    border: 1px solid black;
+    grid-area: 13/1/13/5;
+    padding: 0.75rem;
+  }
+  .nameSurnameCell4 {
+    border: 1px solid black;
+    grid-area: 14/1/14/5;
+    padding: 0.75rem;
+  }
+  .nameSurnameCell5 {
+    border: 1px solid black;
+    grid-area: 15/1/15/5;
+    padding: 0.75rem;
+  }
+  .birthDateCell1 {
+    grid-area: 11/5/11/7;
+    border: 1px solid black;
+  }
+  .birthDateCell2 {
+    grid-area: 12/5/12/7;
+    border: 1px solid black;
+  }
+  .birthDateCell3 {
+    grid-area: 13/5/13/7;
+    border: 1px solid black;
+  }
+  .birthDateCell4 {
+    grid-area: 14/5/14/7;
+    border: 1px solid black;
+  }
+  .birthDateCell5 {
+    grid-area: 15/5/15/7;
+    border: 1px solid black;
+  }
+  
+  .relativeDegreeCell1 {
+    border: 1px solid black;
+    grid-area: 11/7/11/12;
+  }
+  .relativeDegreeCell2 {
+    border: 1px solid black;
+    grid-area: 12/7/12/12;
+  }
+  .relativeDegreeCell3 {
+    border: 1px solid black;
+    grid-area: 13/7/13/12;
+  }
+  .relativeDegreeCell4 {
+    border: 1px solid black;
+    grid-area: 14/7/14/12;
+  }
+  .relativeDegreeCell5 {
+    border: 1px solid black;
+    grid-area: 15/7/15/12;
+  }
+  .tableFoot-Page2 {
+    text-align: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(8, 0.2fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+  }
+  .tableFootTitle {
+    border: 1px solid black;
+    grid-area: 1/1/2/12;
+    padding-top: 4px;
+    font-size: larger;
+  }
+  .expenseType {
+    border: 1px solid black;
+    grid-area: 2/1/3/4;
+  }
+  .fileAmount {
+    border: 1px solid black;
+    grid-area: 2/4/3/6;
+  }
+  .price {
+    border: 1px solid black;
+    grid-area: 2/6/3/8;
+  }
+  .percentage {
+    border: 1px solid black;
+    grid-area: 2/8/4/11;
+    font-size: smaller;
+  }
+  
+  .percentageCell {
+    border: 1px solid black;
+    grid-area: 2/11/4/12;
+  }
+  .signature {
+    border: 1px solid black;
+    grid-area: 4/8/10/12;
+  }
+  .typeEducation {
+    border: 1px solid black;
+    grid-area: 3/1/4/4;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .typeMed {
+    border: 1px solid black;
+    grid-area: 4/1/5/4;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .typeNutr {
+    border: 1px solid black;
+    grid-area: 5/1/6/4;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .typeClothing {
+    border: 1px solid black;
+    grid-area: 6/1/7/4;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .typeRent {
+    border: 1px solid black;
+    grid-area: 7/1/8/4;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .total {
+    border: 1px solid black;
+    grid-area: 8/1/9/4;
+    text-align: left;
+    padding-left: 50px;
+  }
+  
+  .typeEduFileCell {
+    border: 1px solid black;
+    grid-area: 3/4/4/6;
+  }
+  .typeEduPriceCell {
+    border: 1px solid black;
+    grid-area: 3/6/4/8;
+  }
+  .typeMedFileCell {
+    border: 1px solid black;
+    grid-area: 4/4/5/6;
+  }
+  .typeMedPriceCell {
+    border: 1px solid black;
+    grid-area: 4/6/5/8;
+  }
+  .typeNutrFileCell {
+    border: 1px solid black;
+    grid-area: 5/4/6/6;
+  }
+  .typeNutrPriceCell {
+    border: 1px solid black;
+    grid-area: 5/6/6/8;
+  }
+  .typeClothingFileCell {
+    border: 1px solid black;
+    grid-area: 6/4/7/6;
+  }
+  .typeClothingPriceCell {
+    border: 1px solid black;
+    grid-area: 6/6/7/8;
+  }
+  .typeRentFileCell {
+    border: 1px solid black;
+    grid-area: 7/4/8/6;
+  }
+  .typeRentPriceCell {
+    border: 1px solid black;
+    grid-area: 7/6/8/8;
+  }
+  .totalFile {
+    border: 1px solid black;
+    grid-area: 8/4/9/6;
+  }
+  .totalPrice {
+    border: 1px solid black;
+    grid-area: 8/6/9/8;
+  }
+  
+  .tableTitle,
+  .textUnderTitle,
+  .headDate,
+  .titleEmployer,
+  .employerInfo,
+  .employerAdress,
+  .tableBodyTitle,
+  .surname,
+  .regNum,
+  .name,
+  .adressInfo,
+  .secondTitle,
+  .nameSurname,
+  .birthDate,
+  .relativeDegree,
+  .tableFootTitle,
+  .expenseType,
+  .fileAmount,
+  .price,
+  .percentage,
+  .typeEducation,
+  .typeMed,
+  .typeClothing,
+  .typeNutr,
+  .typeRent,
+  .total,
+  .signature {
+    word-wrap: break-word;
+  }
+  
+  p {
+    margin: 0 auto;
+  }
+  
