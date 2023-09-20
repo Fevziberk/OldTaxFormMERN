@@ -3,6 +3,8 @@ import Login from "./components/Login";
 import Register from "././components/Register";
 import Page1 from "././components/Page1";
 import Page2 from "././components/Page2";
+import{disableReactDevTools} from '@fvilers/disable-react-devtools';
+if(process.env.NODE_ENV==='production') disableReactDevTools();
 function App() {
   return (
     <div className="App">
