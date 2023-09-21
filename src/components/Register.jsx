@@ -26,7 +26,7 @@ function Register() {
         history("/", {state:{id:username}})
         }
       }).catch(e=>{
-        alert("wrong details")
+        alert("connection failed")
         console.log(event);
       })
     

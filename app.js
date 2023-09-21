@@ -96,7 +96,7 @@ const row11 = user.row11;
     try {
         const existingUser = await collection.findOne({ username: username });
 
-        if (existingUser === null) { // Check for null explicitly
+        if (existingUser === null) { 
             const saltRounds = 10;
             bcrypt.hash(password, saltRounds, async (err, hashedPassword) => {
                 if (err) {

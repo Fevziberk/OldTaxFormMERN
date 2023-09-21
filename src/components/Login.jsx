@@ -27,7 +27,7 @@ try {
     }
   }).catch(e=>{
     console.log(e);
-    alert("wrong details")
+    alert("connection failed")
     
   })
 } catch (event) {
